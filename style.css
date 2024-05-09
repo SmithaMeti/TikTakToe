@@ -1,9 +1,11 @@
 * {
     margin: 0;
 }
+
 h1 {
     text-align: center;
 }
+
 #main {
     margin: 2px;
     padding: 10px;
@@ -11,6 +13,7 @@ h1 {
     /* background-color: aquamarine; */
     text-align: center;
 }
+
 .inputButton {
     width: 150px;
     height: 150px;
@@ -18,48 +21,76 @@ h1 {
     border-radius: 1rem;
 }
 
-#main{
+#main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.inner{
+
+.inner {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     width: 500px;
 }
+
 body {
     background-color: #AD88C6;
 }
+
 .set {
     text-align: center;
-    margin:20px;
+    margin: 20px;
     width: 70px;
     height: 35px;
     /* padding: 10px; */
     border-radius: 1rem;
     background-color: #FFE6E6;
 }
+
 #new {
     /* text-align: center; */
     justify-content: center;
-    margin:20px;
+    margin: 20px;
     width: 90px;
     height: 40px;
     padding: 10px;
     border-radius: 1rem;
     background-color: #FFE6E6;
 }
+
 h2 {
     text-align: center;
 }
+
 .hide {
     display: none;
 }
 
+
+
+@media (max-width: 600px) {
+
+    /* Your CSS styles specific to phones */
+    .inputButton {
+        width: 30%;
+        height: 30%;
+        margin: 2px;
+        border-radius: 1rem;
+    }
+
+    .inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
 .mes-win {
     margin: 20rem auto 20rem auto;
-    
+
 }
