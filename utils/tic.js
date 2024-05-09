@@ -19,6 +19,7 @@ possibles = [
 
 reset = () => {
   turn = true;
+  currentTurn.innerText = "O's Turn"
   enable();
   msg.classList.add("hide");
 };
